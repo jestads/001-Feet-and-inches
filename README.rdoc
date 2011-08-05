@@ -1,0 +1,40 @@
+= Feet and inches
+
+Drawing programs measure distances in ten-thousandths of an inch, like 73.0185, but carpenters work in feet, inches, and thirty-seconds of an inch, like 6 feet 1 and 1/32 inches. Your task is to write a program that takes a measurement in decimal notation and returns the measurement in carpenter’s notation.
+
+If you are unfamiliar with imperial measurements, you need to know that there are twelve inches in a foot.
+
+For example:
+
+  0       =>  0 feet 0 inches
+  0.2785  =>  9/32 inch
+  1.6895  =>  1 and 11/16 inches
+ 11.9999  =>  1 foot
+ 12.2785  =>  1 foot 9/32 inch
+ 71.9999  =>  6 feet
+ 72       =>  6 feet
+ 72.3492  =>  6 feet 11/32 inch
+ 72.9999  =>  6 feet 1 inch
+ 73       =>  6 feet 1 inch
+ 73.0135  =>  6 feet 1 inch
+ 73.0185  =>  6 feet 1 and 1/32 inches
+ 73.8218  =>  6 feet 1 and 13/16 inches
+
+
+source: http://programmingpraxis.com/2011/07/01/feet-and-inches/
+
+== Contributing to Feet and inches
+ 
+* Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet
+* Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it
+* Fork the project
+* Start a feature/bugfix branch
+* Commit and push until you are happy with your contribution
+* Make sure to add tests for it. This is important so I don't break it in a future version unintentionally.
+* Please try not to mess with the Rakefile, version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.
+
+== Copyright
+
+Copyright (c) 2011 Jesta Development Service inc. See LICENSE.txt for
+further details.
+
