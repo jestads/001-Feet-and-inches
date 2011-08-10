@@ -2,6 +2,7 @@ GEM
   remote: http://rubygems.org/
   specs:
     Saikuro (1.1.0)
+    ZenTest (4.6.0)
     activesupport (3.0.9)
     arrayfields (4.7.4)
     chronic (0.3.0)
@@ -79,5 +80,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  ZenTest
   metric_fu
   rspec

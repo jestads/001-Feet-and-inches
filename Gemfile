@@ -7,5 +7,6 @@ source "http://rubygems.org"
 # Include everything needed to run rake, tests, features, etc.
 group :development, :test do
   gem 'rspec'
+  gem 'ZenTest'
   gem 'metric_fu'
 end
